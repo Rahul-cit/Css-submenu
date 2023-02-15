@@ -1,0 +1,99 @@
+/* *common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+   text-decoration: none; 
+}
+ul{
+    list-style: none;
+}
+/* common css ends */
+
+/* nav bar starts */
+
+body{
+    background-image: url();
+}
+nav{
+    background-color:red;
+    width: 800px;
+    display: block;
+    margin: auto;
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 38px;
+    position: relative;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li a{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600px;  
+    font-size: 18px;
+    display: inline-block;
+   
+      
+}
+nav ul h2{
+    color: white;
+    font-family:  sans-serif;
+    font-size: 30px;
+    text-shadow:  2px 2px black;
+    display: inline-block;
+    
+}  
+/* nav abr ends */
+
+/* submenu starts */
+
+nav ul li ul{
+    position: absolute;
+    background-color: rgb(233, 238, 81);
+    margin: 15px 25px;
+    right: 5%;
+    left: 2%;
+    width: 160px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    border-radius: 0;
+    
+  
+}
+nav ul li ul li a{
+    border-bottom: 1px solid black;
+    display: block;
+    transition: 0.4s;
+
+}
+nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    border-radius: 10px;
+}
+nav ul li ul li:hover a{
+    margin-left: 15px;
+
+}
+
+
+img{
+     display: block;
+    width: 800px;
+    margin: auto;
+  
+}
+
+
+/* submenu ends */
+
+
+
+
